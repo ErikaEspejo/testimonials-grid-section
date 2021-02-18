@@ -6,3 +6,38 @@
   --light-grayish-blue: hsl(210, 46%, 95%);
   --font: 'Barlow Semi Condensed';
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 1.5rem;
+  background-color: var(--light-grayish-blue);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 5%;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.testimonial {
+  border-radius: 8px;
+  padding: 8%;
+  border: 1px solid red;;
+}
+
+blockquote {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+blockquote p {
+  font-family: var(--font);
+  font-size: 1.5rem;
+}
