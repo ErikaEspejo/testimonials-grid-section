@@ -28,11 +28,11 @@ body {
 
 .testimonial {
   border-radius: 8px;
-  padding: 8%;
-  border: 1px solid red;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-shadow: 0px 0px 15px -0px rgba(0, 0, 0, 0.3);
 }
 
 .user-info {
@@ -72,12 +72,30 @@ blockquote p {
 .first-comment,
 .second-comment,
 .fourth-comment {
-  color: var(--light-gray);
+  color: white;
 }
-
 
 .third-comment,
 .fifth-comment {
   color: var(--very-dark-blackish-blue);
+}
+
+.first-comment {
+  background: var(--moderate-violet);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+}
+
+.second-comment {
+  background: var(--very-dark-grayish-blue);
+}
+
+.third-comment, .fifth-comment {
+  background: white ;
+}
+
+.fourth-comment {
+  background: var(--very-dark-blackish-blue);
 }
 
